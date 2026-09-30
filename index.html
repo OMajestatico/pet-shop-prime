@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f6e7e8" />
+  <meta name="description" content="Pet Shop Prime em Cuiabá: cuidado, carinho e produtos para o seu pet." />
+  <title>Pet Shop Prime | Cuidado com personalidade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-glow page-glow-a" aria-hidden="true"></div>
+  <div class="page-glow page-glow-b" aria-hidden="true"></div>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#inicio" aria-label="Pet Shop Prime - início">
+      <img src="brand-logo.png" alt="Espaço Pet Shop Prime Goiabeiras Shopping" />
+    </a>
+    <div class="topbar-actions">
+      <a class="mini-cta" href="https://wa.me/5565992341505?text=Olá%20Pet%20Shop%20Prime!%20Gostaria%20de%20mais%20informações." target="_blank" rel="noopener">
+        <img src="whatsapp-dark.png" alt="" />
+        <span>Chamar</span>
+      </a>
+      <button class="menu-button" id="menuButton" aria-label="Abrir menu" aria-controls="menuOverlay" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+    <div class="menu-panel">
+      <div class="menu-top">
+        <span class="menu-kicker">Navegação</span>
+        <button class="menu-close" id="menuClose" aria-label="Fechar menu"><i data-lucide="x"></i></button>
+      </div>
+      <nav class="menu-links" aria-label="Menu principal">
+        <a href="#inicio"><span>01</span>Início<i data-lucide="arrow-up-right"></i></a>
+        <a href="#cuidados"><span>02</span>Cuidados<i data-lucide="arrow-up-right"></i></a>
+        <a href="#galeria"><span>03</span>Espaço<i data-lucide="arrow-up-right"></i></a>
+        <a href="#avaliacoes"><span>04</span>Avaliações<i data-lucide="arrow-up-right"></i></a>
+        <a href="#contato"><span>05</span>Contato<i data-lucide="arrow-up-right"></i></a>
+      </nav>
+      <div class="menu-bottom">
+        <p>R. Alm. Henrique Pinheiro Guedes, 478<br>Duque de Caxias · Cuiabá</p>
+        <a href="tel:+5565992341505">(65) 99234-1505</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg" aria-hidden="true"><img src="fachada.jpg" alt="" /></div>
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="hero-content wrap">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> carinho que dá pra ver</div>
+          <h1>Seu pet merece um lugar <em>tão especial</em> quanto ele.</h1>
+          <p>Um espaço acolhedor em Cuiabá para cuidar, mimar e encontrar o que faz parte da rotina do seu melhor amigo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wa.me/5565992341505?text=Olá%20Pet%20Shop%20Prime!%20Gostaria%20de%20mais%20informações." target="_blank" rel="noopener">
+              <img src="whatsapp-dark.png" alt="" /> Falar no WhatsApp
+            </a>
+            <a class="button button-ghost" href="#cuidados">Conhecer o espaço <i data-lucide="arrow-down"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-1" data-tilt>
+          <div class="hero-card-image"><img src="pet.jpg" alt="Cachorrinho atendido pelo Pet Shop Prime" /></div>
+          <div class="hero-card-info">
+            <div><strong>4,6</strong><span>no Google</span></div>
+            <div class="stars" aria-label="4,6 de 5 estrelas">★★★★★</div>
+            <span class="reviews-count">112 avaliações</span>
+          </div>
+          <div class="floating-badge"><i data-lucide="heart"></i><span>cuidado<br>de verdade</span></div>
+        </div>
+      </div>
+      <div class="hero-marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Banho & cuidados</span><b>✦</b><span>Acessórios</span><b>✦</b><span>Carinho</span><b>✦</b><span>Aquarismo</span><b>✦</b><span>Bem-estar</span><b>✦</b>
+          <span>Banho & cuidados</span><b>✦</b><span>Acessórios</span><b>✦</b><span>Carinho</span><b>✦</b><span>Aquarismo</span><b>✦</b><span>Bem-estar</span><b>✦</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section wrap" id="cuidados">
+      <div class="section-head reveal">
+        <div class="eyebrow dark"><span></span> cuidado completo</div>
+        <h2>Um pet shop com <em>personalidade</em> e atenção aos detalhes.</h2>
+        <p>Da hora do banho aos pequenos itens do dia a dia, a ideia é simples: deixar a rotina mais leve para você e mais gostosa para o seu pet.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card service-card-big reveal" data-tilt>
+          <div class="service-photo"><img src="banho.jpg" alt="Pet durante atendimento no Pet Shop Prime" /></div>
+          <div class="service-overlay"></div>
+          <div class="service-content">
+            <span class="service-number">01</span>
+            <i data-lucide="sparkles"></i>
+            <h3>Banho & cuidados</h3>
+            <p>Atendimento cuidadoso para deixar seu pet confortável, limpo e bem tratado.</p>
+          </div>
+        </article>
+
+        <article class="service-card reveal delay-1" data-tilt>
+          <div class="service-icon"><i data-lucide="shopping-bag"></i></div>
+          <span class="service-number">02</span>
+          <h3>Acessórios & rotina</h3>
+          <p>Itens para passeio, conforto, higiene e aquela inevitável compra “só de uma coisinha”.</p>
+          <div class="card-line"></div>
+        </article>
+
+        <article class="service-card service-card-mint reveal delay-2" data-tilt>
+          <div class="service-icon"><i data-lucide="fish"></i></div>
+          <span class="service-number">03</span>
+          <h3>Aquarismo</h3>
+          <p>Produtos e acessórios para quem também cuida de pequenos mundos dentro d’água.</p>
+          <div class="card-line"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section">
+      <div class="experience-inner wrap">
+        <div class="experience-copy reveal">
+          <div class="eyebrow dark"><span></span> espaço prime</div>
+          <h2>Feito para quem trata pet como <em>família.</em></h2>
+          <p>Ambiente acolhedor, variedade de produtos e uma experiência próxima. Sem aquela frieza de loja genérica que parece ter sido montada por uma planilha.</p>
+          <div class="experience-points">
+            <div><i data-lucide="badge-check"></i><span><strong>Atendimento elogiado</strong> por clientes no Google</span></div>
+            <div><i data-lucide="accessibility"></i><span><strong>Acessibilidade</strong> na entrada e estacionamento</span></div>
+            <div><i data-lucide="map-pin"></i><span><strong>Em Cuiabá</strong> no bairro Duque de Caxias</span></div>
+          </div>
+        </div>
+        <div class="experience-stack reveal delay-1" id="stack3d">
+          <figure class="stack-card stack-back"><img src="acessorios.jpg" alt="Variedade de acessórios no Pet Shop Prime" /></figure>
+          <figure class="stack-card stack-mid"><img src="aquarismo.jpg" alt="Área de aquarismo e produtos" /></figure>
+          <figure class="stack-card stack-front"><img src="fachada.jpg" alt="Espaço Pet Shop Prime" /></figure>
+          <div class="stack-stamp"><i data-lucide="paw-print"></i><span>PRIME<br>CARE</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="galeria">
+      <div class="wrap gallery-head reveal">
+        <div>
+          <div class="eyebrow dark"><span></span> por dentro</div>
+          <h2>Um espaço cheio de <em>cor, cuidado e vida.</em></h2>
+        </div>
+        <div class="carousel-controls" aria-label="Controles da galeria">
+          <button class="carousel-btn" data-carousel-prev="galleryTrack" aria-label="Foto anterior"><i data-lucide="arrow-left"></i></button>
+          <button class="carousel-btn" data-carousel-next="galleryTrack" aria-label="Próxima foto"><i data-lucide="arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="wrap gallery-carousel-wrap">
+        <div class="gallery-track snap-track" id="galleryTrack">
+          <figure class="gallery-item"><img src="fachada.jpg" alt="Fachada e espaço interno do Pet Shop Prime" /><figcaption><span>Espaço</span><strong>Espaço Prime</strong></figcaption></figure>
+          <figure class="gallery-item"><img src="pet.jpg" alt="Cachorrinho" /><figcaption><span>Cuidado</span><strong>Carinho em cada detalhe</strong></figcaption></figure>
+          <figure class="gallery-item"><img src="acessorios.jpg" alt="Acessórios para pets" /><figcaption><span>Variedade</span><strong>Para toda a rotina</strong></figcaption></figure>
+          <figure class="gallery-item"><img src="aquarismo.jpg" alt="Aquários e produtos" /><figcaption><span>Especialidade</span><strong>Aquarismo</strong></figcaption></figure>
+          <figure class="gallery-item"><img src="banho.jpg" alt="Atendimento de banho e cuidados" /><figcaption><span>Bem-estar</span><strong>Banho & cuidados</strong></figcaption></figure>
+        </div>
+        <div class="carousel-dots" data-dots-for="galleryTrack" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="avaliacoes">
+      <div class="reviews-shell wrap">
+        <div class="reviews-summary reveal">
+          <div class="eyebrow"><span></span> quem já conhece</div>
+          <div class="rating-big">4,6</div>
+          <div class="stars stars-large">★★★★★</div>
+          <p>Mais de cem avaliações no Google. Humanos realmente pararam o que estavam fazendo para elogiar. Isso já diz bastante.</p>
+          <a href="https://maps.app.goo.gl/xwjEeqvFBMMRER6U9?g_st=ac" target="_blank" rel="noopener">Ver no Google Maps <i data-lucide="arrow-up-right"></i></a>
+        </div>
+        <div class="review-carousel reveal delay-1">
+          <div class="review-track carousel-track" id="reviewTrack">
+            <article class="review-card">
+              <div class="quote">“</div>
+              <p>Maravilhoso atendimento... a moça do caixa muito simpática e atenciosa. É um dos melhores lugares.</p>
+              <footer><div><strong>Cliente no Google</strong><span>5 estrelas</span></div><span class="review-stars">★★★★★</span></footer>
+            </article>
+            <article class="review-card">
+              <div class="quote">“</div>
+              <p>Meu gato adorou o arranhador.</p>
+              <footer><div><strong>Antonio Boaventura</strong><span>Google</span></div><span class="review-stars">★★★★★</span></footer>
+            </article>
+            <article class="review-card">
+              <div class="quote">“</div>
+              <p>Atendimento nota 10.</p>
+              <footer><div><strong>Eliane da Silva</strong><span>Google</span></div><span class="review-stars">★★★★★</span></footer>
+            </article>
+            <article class="review-card">
+              <div class="quote">“</div>
+              <p>Atendimento excelente!</p>
+              <footer><div><strong>Norma Fonseca</strong><span>Google</span></div><span class="review-stars">★★★★☆</span></footer>
+            </article>
+          </div>
+          <div class="review-dots" id="reviewDots" aria-label="Navegação das avaliações"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section wrap" id="contato">
+      <div class="contact-card reveal">
+        <div class="contact-copy">
+          <div class="eyebrow dark"><span></span> visite a prime</div>
+          <h2>Seu pet já tem um novo <em>lugar favorito.</em></h2>
+          <p>R. Alm. Henrique Pinheiro Guedes, 478<br>Duque de Caxias · Cuiabá — MT</p>
+          <div class="hours">
+            <div><span>Segunda a sexta</span><strong>08:00 — 17:30</strong></div>
+            <div><span>Sábado</span><strong>08:00 — 13:30</strong></div>
+            <div><span>Domingo</span><strong>Fechado</strong></div>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-dark" href="https://wa.me/5565992341505?text=Olá%20Pet%20Shop%20Prime!%20Gostaria%20de%20mais%20informações." target="_blank" rel="noopener"><img src="whatsapp-white.png" alt="" /> WhatsApp</a>
+            <a class="button button-outline-dark" href="https://maps.app.goo.gl/xwjEeqvFBMMRER6U9?g_st=ac" target="_blank" rel="noopener"><i data-lucide="navigation"></i> Como chegar</a>
+          </div>
+        </div>
+        <a class="map-preview" href="https://maps.app.goo.gl/xwjEeqvFBMMRER6U9?g_st=ac" target="_blank" rel="noopener" aria-label="Abrir localização no Google Maps">
+          <iframe title="Localização do Pet Shop Prime" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?f=l&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Pet%20Shop%20Prime%2C%20R.%20Alm.%20Henrique%20Pinheiro%20Guedes%2C%20478%2C%20Duque%20de%20Caxias%2C%20Cuiab%C3%A1%20-%20MT&amp;aq=t&amp;ie=UTF8&amp;z=17&amp;om=0&amp;iwloc=addr&amp;iwd=0&amp;layer=0&amp;output=embed" tabindex="-1"></iframe>
+          <div class="map-shield"></div>
+          <div class="map-label"><i data-lucide="map-pin"></i><span><strong>Pet Shop Prime</strong><small>Toque para abrir no Maps</small></span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="final-blob final-blob-a"></div><div class="final-blob final-blob-b"></div>
+      <div class="wrap final-content reveal">
+        <img class="final-logo" src="brand-logo.png" alt="Espaço Pet Shop Prime Goiabeiras Shopping" />
+        <p class="final-kicker">PET SHOP PRIME · CUIABÁ</p>
+        <h2>Cuidado bom é aquele que o pet <em>sente.</em></h2>
+        <a class="button button-large final-contact-button" href="https://wa.me/5565992341505?text=Olá%20Pet%20Shop%20Prime!%20Gostaria%20de%20mais%20informações." target="_blank" rel="noopener"><img src="whatsapp-dark.png" alt="" /> Falar com a Prime</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div><strong>Pet Shop Prime</strong><span>Espaço, cuidado e carinho.</span></div>
+      <div class="footer-links"><a href="tel:+5565992341505">(65) 99234-1505</a><a href="#inicio">Voltar ao topo <i data-lucide="arrow-up"></i></a></div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5565992341505?text=Olá%20Pet%20Shop%20Prime!%20Gostaria%20de%20mais%20informações." target="_blank" rel="noopener" aria-label="Falar com o Pet Shop Prime no WhatsApp">
+    <img src="whatsapp-white.png" alt="" />
+  </a>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
